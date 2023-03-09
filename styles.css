@@ -1,0 +1,124 @@
+
+body {
+    background-color: #03001c;
+    background-image: url('https://cdn.dribbble.com/users/648922/screenshots/14120767/media/4dec967491175dcf45e70ae6015a4060.png?compress=1&resize=400x300');
+    font-family: "Courier New", Courier, monospace;
+    color:#f1f1f1;
+    background-size: 1000px;
+    
+  
+  }
+  
+  h1 {
+    color: #b6eada;
+    text-align: center;
+  }
+  
+  #recipe {
+    margin: 0 auto;
+    max-width: 50rem;
+  }
+  
+  .recipe {
+    background-color: #1a1b1c;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    color: #c4f1ce;
+    transition: scale 100ms;
+    outline: 3px solid #b6eada;
+  }
+  
+  .recipe:hover {
+    outline: 3px solid #b6eada;
+    scale: 1.05;
+    cursor: pointer;
+  }
+  #recipe2 {
+    margin: 0 auto;
+    max-width: 50rem;
+  }
+  
+  .recipe2 {
+    background-color: #1a1b1c;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    color: #c4f1ce;
+    transition: scale 100ms;
+    outline: 3px solid #b6eada;
+  }
+  a{
+    color: #c6c4f1;
+  }
+  .recipe2:hover {
+    outline: 3px solid #b6eada;
+    scale: 1.05;
+    cursor: pointer;
+  }
+  
+  #movie {
+    margin: 0 auto;
+    max-width: 50rem;
+  }
+  
+  .movie {
+    background-color: #1a1b1c;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    color: #c4f1ce;
+    transition: scale 100ms;
+    outline: 3px solid #b6eada;
+  }
+  
+  .movie:hover {
+    outline: 3px solid #b6eada;
+    scale: 1.05;
+    cursor: pointer;
+  }
+  
+  /* Dropdown Button */
+  .dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}

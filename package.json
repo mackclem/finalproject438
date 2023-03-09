@@ -1,0 +1,21 @@
+{
+  "name": "finalproject438",
+  "version": "1.0.0",
+  "description": "",
+  "main": "firstPage.js",
+  "scripts": {
+    "start": "vite",
+    "host": "vite --host",
+    "build": "vite build",
+    "preview": "vite build && vite preview",
+    "deploy": "vite build --base=/finalproject438/ && gh-pages -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "vite": "^4.1.4"
+  },
+  "dependencies": {
+    "lit-html": "^2.6.1"
+  }
+}
